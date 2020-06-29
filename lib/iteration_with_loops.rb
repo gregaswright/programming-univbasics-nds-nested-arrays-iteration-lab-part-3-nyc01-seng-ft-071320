@@ -6,7 +6,7 @@ def join_nested_strings(src)
     while element_index < src[row_index] do
       if src[row_index][element_index] == [row_index]
         #join_string.push(src[row_index][element_index])
-        src[row_index].delete([element_index]) 
+        src[row_index].delete([element_index])
       end
       element_index += 1
     end
