@@ -1,3 +1,4 @@
 def join_nested_strings(src)
-  src.sort
+  src.sort!
+  src
 end
