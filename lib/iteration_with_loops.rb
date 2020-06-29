@@ -1,3 +1,3 @@
 def join_nested_strings(src)
-  src
+  src.sort
 end
